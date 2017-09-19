@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.sanjana.dicegame.MainActivity"
+    android:background="#F3D9BC">
+
+    <TextView
+        android:id="@+id/tv_cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU: 0"
+        android:textSize="32dp"/>
+
+    <ImageView
+        android:id="@+id/iv_cpu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/one"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="VS"
+        android:textSize="32dp"/>
+
+    <ImageView
+        android:id="@+id/iv_player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/one"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="YOU: 0"
+        android:textSize="32dp"/>
+</LinearLayout>
